@@ -1,7 +1,6 @@
 import React, { Suspense } from 'react';
 import './App.css';
 import { Routes, Route, Link, Navigate } from 'react-router-dom';
-// import { Redirect } from 'react-router';
 
 const App = ({routes = []}) => {
   const content =  routes.map((item) => {
